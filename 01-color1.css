@@ -1,0 +1,139 @@
+body{
+    background:#0F172A;
+}
+.container{
+    background:#111827;
+    border-radius:10px;
+}
+h1{
+    color:#00E5FF;
+    font-size:50px;
+    font-weight:bold;
+	text-align:center;
+}
+h2{
+	color:red;
+	font-size:30px;
+}
+.nav-box{
+    width:70%;
+    margin:10px auto;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+
+    background:rgba(17,24,39,0.55);
+    backdrop-filter:blur(12px);
+
+    border:1px solid rgba(0,229,255,.3);
+    border-radius:20px;
+
+    padding:25px 10px;
+}
+.menu{
+    flex:1;
+    text-align:center;
+    color:white;
+    padding:10px;
+    border-right:1px solid rgba(255,255,255,.15);
+}
+.menu:last-child{
+    border-right:none;
+}
+.menu i{
+    font-size:55px;
+    color:#00E5FF;
+    margin-bottom:15px;
+}
+.menu h3{
+    color:#ffff00;
+    font-size:14px;
+    margin:15px 0;
+}
+.menu button{
+    margin-top:20px;
+    padding:12px 28px;
+    border-radius:10px;
+    border:2px solid #00E5FF;
+    background:transparent;
+    color:#00E5FF;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
+}
+.menu button:hover{
+    background:#0000FF;
+    color:pink;
+    transform:scale(1.05);
+}
+
+.menu i:hover{
+    transform:scale(1.15);
+    transition:.3s;
+	color:orange;
+}
+.overview{
+    width:85%;
+    margin:50px auto;
+    padding:35px;
+
+    background:rgba(17,00,39,0.6);
+    backdrop-filter:blur(10px);
+
+    border-radius:20px;
+    border:1px solid rgba(0,229,255,.3);
+
+    color:#E208F0;
+}
+.overview h2{
+    color:#0000FF;
+    text-align:center;
+    font-size:36px;
+}
+
+.overview h3{
+    color:green;
+    margin-top:25px;
+}
+
+.overview p{
+    line-height:1.8;
+    font-size:18px;
+    text-align:justify;
+	color:white;
+}
+
+.overview ul{
+    padding-left:25px;
+	color:white;
+}
+
+.overview li{
+    margin:10px 0;
+    font-size:18px;
+}
+.buttons{
+    text-align:center;
+    margin-top:40px;
+}
+
+.btn{
+    display:inline-block;
+    margin:10px;
+    padding:15px 35px;
+    text-decoration:none;
+
+    background:linear-gradient(90deg,#3B82F6,#00E5FF);
+    color:white;
+
+    border-radius:10px;
+    font-size:20px;
+    font-weight:bold;
+
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-5px);
+    box-shadow:0 0 20px #00E5FF;
+}

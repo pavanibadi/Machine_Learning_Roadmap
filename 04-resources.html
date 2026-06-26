@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>ML Learning Hub</title>
+<style>
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', sans-serif;
+        background: linear-gradient(135deg, #0f172a, #1e3a8a, #0ea5e9);
+        color: white;
+    }
+    header {
+        text-align: center;
+        padding: 40px 20px;
+        background: rgba(0,0,0,0.3);
+    }
+    header h1 {
+        font-size: 40px;
+        margin: 0;
+        color: #facc15;
+    }
+    header p {
+        color: #e2e8f0;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        padding: 30px;
+    }
+    .card {
+        background: rgba(255,255,255,0.08);
+        border-radius: 15px;
+        padding: 20px;
+        border: 1px solid rgba(255,255,255,0.2);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+        transition: 0.3s;
+    }
+    .card:hover {
+        transform: translateY(-8px);
+        border: 1px solid #38bdf8;
+    }
+    .card h2 {
+        margin-top: 0;
+        color: #38bdf8;
+    }
+    .section-title {
+        margin-top: 10px;
+        font-weight: bold;
+    }
+    a {
+        text-decoration: none;
+        display: block;
+        margin: 6px 0;
+        padding: 8px;
+        border-radius: 8px;
+        transition: 0.3s;
+    }
+    .free a {
+        background: rgba(34,197,94,0.15);
+        color: #22c55e;
+    }
+    .free a:hover {
+        background: rgba(34,197,94,0.35);
+    }
+    .paid a {
+        background: rgba(250,204,21,0.15);
+        color: #facc15;
+    }
+    .paid a:hover {
+        background: rgba(250,204,21,0.35);
+    }
+</style>
+</head>
+<body>
+<header>
+    <h1>🚀 MACHINE LEARNING HUB</h1>
+    <p>Free + Paid Courses to Master ML</p>
+</header>
+<div class="container">
+    <div class="card" id="python">
+        <h2>🐍 Python for ML</h2>
+
+        <div class="section-title">🆓 Free Courses</div>
+        <div class="free">
+            <a href="https://www.w3schools.com/python/" target="_blank">W3Schools Python</a>
+            <a href="https://docs.python.org/3/tutorial/" target="_blank">Official Python Docs</a>
+            <a href="https://www.youtube.com/results?search_query=python+for+beginners" target="_blank">YouTube Python Course</a>
+        </div>
+        <div class="section-title">💰 Paid Courses</div>
+        <div class="paid">
+            <a href="https://www.udemy.com/topic/python/" target="_blank">Udemy Python Course</a>
+            <a href="https://www.coursera.org/specializations/python" target="_blank">Coursera Python Specialization</a>
+        </div>
+    </div>
+    <div class="card" id="math">
+        <h2>📊 Mathematics for ML</h2>
+        <div class="section-title">🆓 Free Courses</div>
+        <div class="free">
+            <a href="https://www.khanacademy.org/math" target="_blank">Khan Academy</a>
+            <a href="https://seeing-theory.brown.edu/" target="_blank">Probability Visualization</a>
+            <a href="https://www.youtube.com/results?search_query=math+for+machine+learning"target="_blank">YouTube Math ML</a>
+        </div>
+        <div class="section-title">💰 Paid Courses</div>
+        <div class="paid">
+            <a href="https://www.coursera.org/specializations/mathematics-machine-learning" target="_blank">Coursera Math ML</a>
+        </div>
+    </div>
+    <div class="card" id="ML">
+        <h2>🤖 Machine Learning Basics</h2>
+        <div class="section-title">🆓 Free Courses</div>
+        <div class="free">
+            <a href="https://www.kaggle.com/learn/machine-learning" target="_blank">Kaggle ML Course</a>
+            <a href="https://www.youtube.com/results?search_query=machine+learning+full+course" target="_blank">YouTube ML Course</a>
+        </div>
+        <div class="section-title">💰 Paid Courses</div>
+        <div class="paid">
+            <a href="https://www.coursera.org/learn/machine-learning" target="_blank">Andrew Ng ML Course</a>
+        </div>
+    </div>
+    <div class="card" id="data">
+        <h2>📈 Data Science</h2>
+        <div class="section-title">🆓 Free Courses</div>
+        <div class="free">
+            <a href="https://www.kaggle.com/learn/pandas" target="_blank">Kaggle Pandas</a>
+            <a href="https://numpy.org/learn/" target="_blank">NumPy Docs</a>
+        </div>
+        <div class="section-title">💰 Paid Courses</div>
+        <div class="paid">
+            <a href="https://www.udemy.com/topic/data-science/" target="_blank">Udemy Data Science</a>
+        </div>
+    </div>
+    <div class="card" id="dl">
+        <h2>🧠 Deep Learning</h2>
+        <div class="section-title">🆓 Free Courses</div>
+        <div class="free">
+            <a href="https://www.tensorflow.org/learn" target="_blank">TensorFlow Docs</a>
+            <a href="https://pytorch.org/tutorials/" target="_blank">PyTorch Tutorials</a>
+        </div>
+        <div class="section-title">💰 Paid Courses</div>
+        <div class="paid">
+            <a href="https://www.deeplearning.ai/" target="_blank">DeepLearning.AI</a>
+        </div>
+    </div>
+</div>
+<div style="text-align:center; margin: 40px 0;">
+    <a href="topics.html"
+       style="
+       background:#1e293b;
+       color:#38bdf8;
+       padding:12px 20px;
+       margin:10px;
+       border-radius:10px;
+       text-decoration:none;
+       display:inline-block;
+       font-weight:bold;
+       transition:0.3s;
+       border:1px solid #38bdf8;" target="_blank">
+       ⬅ Back
+    </a>
+    <a href="certifications.html"
+       style="
+       background:#1e293b;
+       color:#22c55e;
+       padding:12px 20px;
+       margin:10px;
+       border-radius:10px;
+       text-decoration:none;
+       display:inline-block;
+       font-weight:bold;
+       transition:0.3s;
+       border:1px solid #22c55e;" target="_blank">
+       Next ➡
+    </a>
+	<a href="project1.html"
+       style="
+       background:#1e293b;
+       color:#22c55e;
+       padding:12px 20px;
+       margin:10px;
+       border-radius:10px;
+       text-decoration:none;
+       display:inline-block;
+       font-weight:bold;
+       transition:0.3s;
+       border:1px solid #22c55e;" target="_blank">
+       Home ➡
+    </a>
+	</div>
+</body>
+</html>
